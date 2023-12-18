@@ -28,7 +28,6 @@ local Theyneedtodie = Instance.new("TextButton")
 local Oldk00p = Instance.new("TextButton")
 local TextLabel = Instance.new("TextLabel")
 local ImageLabel = Instance.new("ImageLabel")
-local Kreekcraftfeet = Instance.new("TextButton")
 local Andres = Instance.new("TextButton")
 
 --Properties:
@@ -149,7 +148,7 @@ Shutdown.BorderSizePixel = 2
 Shutdown.Position = UDim2.new(0.999567032, 0, 1.79454565, 0)
 Shutdown.Size = UDim2.new(0, 81, 0, 429)
 Shutdown.Font = Enum.Font.SourceSans
-Shutdown.Text = "Shutdown to scare lil mfs"
+Shutdown.Text = "Shutdown "
 Shutdown.TextColor3 = Color3.fromRGB(255, 255, 255)
 Shutdown.TextScaled = true
 Shutdown.TextSize = 14.000
@@ -331,7 +330,7 @@ Oldk00p.BorderSizePixel = 2
 Oldk00p.Position = UDim2.new(-0.0191830415, 0, 9.43454552, 0)
 Oldk00p.Size = UDim2.new(0, 147, 0, 47)
 Oldk00p.Font = Enum.Font.SourceSans
-Oldk00p.Text = "Old k00p"
+Oldk00p.Text = "C00ZBDDKIDDIFY"
 Oldk00p.TextColor3 = Color3.fromRGB(255, 255, 255)
 Oldk00p.TextScaled = true
 Oldk00p.TextSize = 14.000
@@ -354,19 +353,7 @@ ImageLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel.BorderColor3 = Color3.fromRGB(0, 85, 0)
 ImageLabel.Position = UDim2.new(1.25, 0, 0, 0)
 ImageLabel.Size = UDim2.new(0, 258, 0, 270)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=15671985913"
-
-Kreekcraftfeet.Name = "Kreekcraftfeet"
-Kreekcraftfeet.Parent = Title
-Kreekcraftfeet.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Kreekcraftfeet.Position = UDim2.new(0.997916579, 0, 0.400000006, 0)
-Kreekcraftfeet.Size = UDim2.new(0, 81, 0, 50)
-Kreekcraftfeet.Font = Enum.Font.SourceSans
-Kreekcraftfeet.Text = "PRACTICE"
-Kreekcraftfeet.TextColor3 = Color3.fromRGB(0, 0, 0)
-Kreekcraftfeet.TextScaled = true
-Kreekcraftfeet.TextSize = 14.000
-Kreekcraftfeet.TextWrapped = true
+ImageLabel.Image = "http://www.roblox.com/asset/?id=15651176449"
 
 Andres.Name = "Andres"
 Andres.Parent = Title
@@ -545,7 +532,7 @@ local function SYIL_fake_script() -- k00p.Particals
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12213443368"
+			emit.Texture = "http://www.roblox.com/asset/?id=15671985913"
 			emit.VelocitySpread = 100000
 		end
 		end)
@@ -557,7 +544,7 @@ local function ULMWR_fake_script() -- k00p.Decalspam
 	function click()
 		function exPro(root)
 			for _, v in pairs(root:GetChildren()) do
-				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=12213443368" then
+				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=15671985913" then
 					v.Parent = nil
 				elseif v:IsA("BasePart") then
 					v.Material = "Plastic"
@@ -568,12 +555,12 @@ local function ULMWR_fake_script() -- k00p.Decalspam
 					local Four = Instance.new("Decal", v)
 					local Five = Instance.new("Decal", v)
 					local Six = Instance.new("Decal", v)
-					One.Texture = "http://www.roblox.com/asset/?id=12213443368"
-					Two.Texture = "http://www.roblox.com/asset/?id=12213443368"
-					Three.Texture = "http://www.roblox.com/asset/?id=12213443368"
-					Four.Texture = "http://www.roblox.com/asset/?id=12213443368"
-					Five.Texture = "http://www.roblox.com/asset/?id=12213443368"
-					Six.Texture = "http://www.roblox.com/asset/?id=12213443368"
+					One.Texture = "http://www.roblox.com/asset/?id=15671985913"
+					Two.Texture = "http://www.roblox.com/asset/?id=15671985913"
+					Three.Texture = "http://www.roblox.com/asset/?id=15671985913"
+					Four.Texture = "http://www.roblox.com/asset/?id=15671985913"
+					Five.Texture = "http://www.roblox.com/asset/?id=15671985913"
+					Six.Texture = "http://www.roblox.com/asset/?id=15671985913"
 					One.Face = "Front"
 					Two.Face = "Back"
 					Three.Face = "Right"
@@ -606,7 +593,7 @@ local function DFJZ_fake_script() -- Playmusic.Script
 		tubers93.Playing		= true
 		tubers93.Looped		= false
 		tubers93.Volume		= 5
-		tubers93.Pitch      = 0.5
+		tubers93.Pitch      = 1
 		
 	end
 	
@@ -618,7 +605,7 @@ local function UDVYAWU_fake_script() -- hint.Script
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local m = Instance.new("Hint", game.workspace)
-		m.Text = " C00ZBDDKIDD JOINED TO DESTROY HAHA"
+		m.Text = " C00ZBDDKIDD JOINED TO DESTROY HAHA!11!2!"
 	end)
 end
 coroutine.wrap(UDVYAWU_fake_script)()
@@ -1016,12 +1003,12 @@ local function MUXC_fake_script() -- Oldk00p.Script
 		s = Instance.new("Sky")
 		s.Name = "Sky"
 		s.Parent = game.Lighting
-		s.SkyboxBk = "http://www.roblox.com/asset/?id=9422866248"
-		s.SkyboxDn = "http://www.roblox.com/asset/?id=9422866248"
-		s.SkyboxFt = "http://www.roblox.com/asset/?id=9422866248"
-		s.SkyboxLf = "http://www.roblox.com/asset/?id=9422866248"
-		s.SkyboxRt = "http://www.roblox.com/asset/?id=9422866248"
-		s.SkyboxUp = "http://www.roblox.com/asset/?id=9422866248"
+		s.SkyboxBk = "http://www.roblox.com/asset/?id=15671985913"
+		s.SkyboxDn = "http://www.roblox.com/asset/?id=15671985913"
+		s.SkyboxFt = "http://www.roblox.com/asset/?id=15671985913"
+		s.SkyboxLf = "http://www.roblox.com/asset/?id=15671985913"
+		s.SkyboxRt = "http://www.roblox.com/asset/?id=15671985913"
+		s.SkyboxUp = "http://www.roblox.com/asset/?id=15671985913"
 		game.Lighting.TimeOfDay = 12
 	end
 	
@@ -1035,7 +1022,7 @@ local function IZPK_fake_script() -- Oldk00p.Script
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=9422866248"
+			emit.Texture = "http://www.roblox.com/asset/?id=15671985913"
 			emit.VelocitySpread = 100000
 		end
 		end)
@@ -1086,40 +1073,6 @@ local function GLWZME_fake_script() -- Oldk00p.Script
 	script.Parent.MouseButton1Down:connect(click)
 end
 coroutine.wrap(GLWZME_fake_script)()
-local function QJZNB_fake_script() -- Kreekcraftfeet.Script 
-	local script = Instance.new('Script', Kreekcraftfeet)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		local ID = 15671985913 -- Change your ID here fellas cXz (Image ID)
- local particle = true
-
--- Don’t change anything down below if you don’t know what are you doing [This script made by cXyzkidd]
-
-if particle == true then
-	for i,v in pairs (game.Workspace:GetChildren()) do
-		if v:IsA("Part") then
-			local particle = Instance.new("ParticleEmitter")
-			particle.Texture = "http://www.roblox.com/asset/?id=" ..ID
-			particle.Parent = v
-			particle.Rate = 200
-			for i,x in pairs (game.Workspace:GetChildren()) do
-				if x:IsA("Model") then
-					for i,z in pairs (x:GetChildren()) do
-						if z:IsA("Part") then
-							local particle2 = Instance.new("ParticleEmitter")
-							particle2.Texture = "http://www.roblox.com/asset/?id=" ..ID
-							particle2.Parent = z
-							particle2.Rate = 200
-						end
-					end
-				end
-			end
-		end
-	end
-end
-end)
-end
-coroutine.wrap(QJZNB_fake_script)()
 local function QDJIMFQ_fake_script() -- Andres.Script 
 	local script = Instance.new('Script', Andres)
 
