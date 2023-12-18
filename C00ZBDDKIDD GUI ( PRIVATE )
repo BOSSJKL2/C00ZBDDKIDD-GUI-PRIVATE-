@@ -51,7 +51,7 @@ Title.BorderSizePixel = 0
 Title.Position = UDim2.new(0.0859276503, 0, -0.000716221984, 0)
 Title.Size = UDim2.new(0, 480, 0, 50)
 Title.Font = Enum.Font.SourceSans
-Title.Text = "k00pgui V6"
+Title.Text = "C00ZBDDKIDD GUI ( PRIVATE ) V1"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextScaled = true
 Title.TextSize = 40.000
@@ -343,7 +343,7 @@ TextLabel.BorderColor3 = Color3.fromRGB(0, 89, 29)
 TextLabel.Position = UDim2.new(-0.081249997, 0, 10.8400002, 0)
 TextLabel.Size = UDim2.new(0, 272, 0, 270)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "The Thanks is for k00pkidd he gave us a funni script and a very c00l group team k00pkidd inspired by team c00lkidd but nah we aint k00p we koopa from super mario!"
+TextLabel.Text = "The Thanks is for C00ZBDDKIDD LOL"
 TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 40.000
@@ -354,7 +354,7 @@ ImageLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel.BorderColor3 = Color3.fromRGB(0, 85, 0)
 ImageLabel.Position = UDim2.new(1.25, 0, 0, 0)
 ImageLabel.Size = UDim2.new(0, 258, 0, 270)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=12212585289"
+ImageLabel.Image = "http://www.roblox.com/asset/?id=15671985913"
 
 Kreekcraftfeet.Name = "Kreekcraftfeet"
 Kreekcraftfeet.Parent = Title
@@ -362,7 +362,7 @@ Kreekcraftfeet.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Kreekcraftfeet.Position = UDim2.new(0.997916579, 0, 0.400000006, 0)
 Kreekcraftfeet.Size = UDim2.new(0, 81, 0, 50)
 Kreekcraftfeet.Font = Enum.Font.SourceSans
-Kreekcraftfeet.Text = "Kreek Feet Jumpscare"
+Kreekcraftfeet.Text = "PRACTICE"
 Kreekcraftfeet.TextColor3 = Color3.fromRGB(0, 0, 0)
 Kreekcraftfeet.TextScaled = true
 Kreekcraftfeet.TextSize = 14.000
@@ -602,7 +602,7 @@ local function DFJZ_fake_script() -- Playmusic.Script
 	function onClick()
 		local tubers93		= Instance.new("Sound")
 		tubers93.Parent		= game:GetService("Workspace")
-		tubers93.SoundId		= "rbxassetid://5925731369"
+		tubers93.SoundId		= "rbxassetid://6942391979"
 		tubers93.Playing		= true
 		tubers93.Looped		= false
 		tubers93.Volume		= 5
@@ -618,7 +618,7 @@ local function UDVYAWU_fake_script() -- hint.Script
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local m = Instance.new("Hint", game.workspace)
-		m.Text = " K00PKIDD BACK TO DESTROY HAHA"
+		m.Text = " C00ZBDDKIDD JOINED TO DESTROY HAHA"
 	end)
 end
 coroutine.wrap(UDVYAWU_fake_script)()
@@ -635,7 +635,7 @@ local function CUKPF_fake_script() -- _666.Script
 				bbg.Size=UDim2.new(2.5,0,2.5,0)
 				--bbg.StudsOffset=Vector3.new(0,2,0)
 				tlb=Instance.new'TextLabel';
-				tlb.Text='TEAM K00PKIDD JOIN TODAY';
+				tlb.Text='TEAM C00ZBDDKIDD JOIN TODAY';
 				tlb.Font='SourceSansBold';
 				tlb.FontSize='Size48';
 				tlb.TextColor3=Color3.new(1,0,0);
@@ -711,7 +711,7 @@ local function FAFX_fake_script() -- Shutdown.Script
 
 	script.Parent.MouseButton1Down:connect(function()
 		for i, players in pairs(game.Players:GetChildren()) do
-			players:Kick("fak u")
+			players:Kick("C00ZBDDKIDD Has SHUTDOWN")
 		end
 	end)
 	
@@ -763,7 +763,7 @@ local function TABNPM_fake_script() -- jumpscare.Script
 					local newgui = Instance.new("ScreenGui",v.PlayerGui)
 					newgui.Name = "Screamer"
 					local newimage = Instance.new("ImageLabel",newgui)
-					newimage.Image = "http://www.roblox.com/asset/?id=11379488396"
+					newimage.Image = "http://www.roblox.com/asset/?id=15671961203"
 					newimage.Size = UDim2.new(1,1,1,1)
 					local s = Instance.new("Sound",newgui)
 					s.SoundId = "rbxassetid://8683380188"
@@ -802,7 +802,7 @@ local function NHCOFRV_fake_script() -- destroy.jump
 					local newgui = Instance.new("ScreenGui",v.PlayerGui)
 					newgui.Name = "Screamer"
 					local newimage = Instance.new("ImageLabel",newgui)
-					newimage.Image = "http://www.roblox.com/asset/?id=7676654418"
+					newimage.Image = "http://www.roblox.com/asset/?id=15671961203"
 					newimage.Size = UDim2.new(1,1,1,1)
 					local s = Instance.new("Sound",newgui)
 					s.SoundId = "rbxassetid://9069609200"
@@ -1090,29 +1090,34 @@ local function QJZNB_fake_script() -- Kreekcraftfeet.Script
 	local script = Instance.new('Script', Kreekcraftfeet)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		for i,v in pairs(game.Players:GetPlayers()) do
-			if v.Name ~= me and not v.PlayerGui:FindFirstChild("Screamer") and v:FindFirstChild("PlayerGui") then
-				spawn(function()
-					local newgui = Instance.new("ScreenGui",v.PlayerGui)
-					newgui.Name = "Screamer"
-					local newimage = Instance.new("ImageLabel",newgui)
-					newimage.Image = "http://www.roblox.com/asset/?id=12216143693"
-					newimage.Size = UDim2.new(1,1,1,1)
-					local s = Instance.new("Sound",newgui)
-					s.SoundId = "rbxassetid://8323804973"
-					s.Volume = 9999999999999999999999999999999999999
-					s.Looped = true
-					s:Play()
-					print("Screamed "..v.Name)
-					while wait(9) do
-	
-						newimage.Parent:Destroy()
-	
+		local ID = 15671985913 -- Change your ID here fellas cXz (Image ID)
+ local particle = true
+
+-- Don’t change anything down below if you don’t know what are you doing [This script made by cXyzkidd]
+
+if particle == true then
+	for i,v in pairs (game.Workspace:GetChildren()) do
+		if v:IsA("Part") then
+			local particle = Instance.new("ParticleEmitter")
+			particle.Texture = "http://www.roblox.com/asset/?id=" ..ID
+			particle.Parent = v
+			particle.Rate = 200
+			for i,x in pairs (game.Workspace:GetChildren()) do
+				if x:IsA("Model") then
+					for i,z in pairs (x:GetChildren()) do
+						if z:IsA("Part") then
+							local particle2 = Instance.new("ParticleEmitter")
+							particle2.Texture = "http://www.roblox.com/asset/?id=" ..ID
+							particle2.Parent = z
+							particle2.Rate = 200
+						end
 					end
-				end)
+				end
 			end
 		end
-	end)
+	end
+end
+end)
 end
 coroutine.wrap(QJZNB_fake_script)()
 local function QDJIMFQ_fake_script() -- Andres.Script 
@@ -1139,7 +1144,7 @@ local function XLAFSM_fake_script() -- Andres.Script
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local m = Instance.new("Hint", game.workspace)
-		m.Text = " k00pkidd?:shit skids andres attack with k00pgui V6 Nickers"
+		m.Text = " C00ZBDDKIDD?:shit skids andres attack with C00ZBDDKIDD V1 Nickers"
 	end)
 end
 coroutine.wrap(XLAFSM_fake_script)()
